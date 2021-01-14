@@ -1,0 +1,27 @@
+{
+  "name": "@crcr/global-emitter",
+  "version": "1.0.0",
+  "description": "Global singleton instance of Node.js EventEmitter. Helps modules communicate with each other.",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvs-crcr/ts-global-emitter.git"
+  },
+  "keywords": [
+    "nodejs",
+    "eventbus",
+    "singleton",
+    "eventemitter"
+  ],
+  "author": "dvs <dvs@crcr.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvs-crcr/ts-global-emitter/issues"
+  },
+  "homepage": "https://github.com/dvs-crcr/ts-global-emitter#readme",
+  "dependencies": {
+    "@types/node": "^14.14.20"
+  }
+}
