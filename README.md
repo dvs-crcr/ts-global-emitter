@@ -15,7 +15,7 @@ $ npm i @crcr/global-emitter
 import { default as GlobalEmitter } from "@crcr/global-emitter";
 // OR const GlobalEmitter = require("@crcr/global-emitter").default;
 
-GlobalEmitter.emit('globalEvent');
+GlobalEmitter.emit("globalEvent");
 ```
 
 ```js
@@ -24,8 +24,8 @@ GlobalEmitter.emit('globalEvent');
 import { default as GlobalEmitter } from "@crcr/global-emitter";
 // OR const GlobalEmitter = require("@crcr/global-emitter").default;
 
-GlobalEmitter.on('globalEvent', () => {
-  console.log('globalEvent successfully emitted!');
+GlobalEmitter.on("globalEvent", () => {
+  console.log("globalEvent successfully emitted!");
 });
 ```
 
