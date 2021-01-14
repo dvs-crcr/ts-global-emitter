@@ -1,6 +1,6 @@
 {
   "name": "@crcr/global-emitter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Global singleton instance of Node.js EventEmitter. Helps modules communicate with each other.",
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/dvs-crcr/ts-global-emitter/issues"
   },
-  "homepage": "https://github.com/dvs-crcr/ts-global-emitter#readme"
+  "homepage": "https://github.com/dvs-crcr/ts-global-emitter#readme",
+  "dependencies": {
+    "@types/node": "^14.14.20"
+  }
 }

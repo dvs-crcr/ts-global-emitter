@@ -1,6 +1,6 @@
 # global-emitter
 [![NPM Version][npm-image]][npm-url]
->Global singleton instance of Node.js EventEmitter. Helps modules communicate with each other.
+>Global singleton instance of Node.js EventEmitter (module). Helps modules communicate with each other.
 
 ## Install
 ```bash
@@ -12,15 +12,15 @@ $ npm i @crcr/global-emitter
 ```js
 // moduleOne.js
 
-const GlobalEmitter = require('@crcr/global-emitter');
+import { default as GlobalEmitter } from "@crcr/global-emitter";
 
-GlobalEmitter.emit('globalEvent');
+GlobalEmitter.emit('globalEvent')
 ```
 
 ```js
 // moduleTwo.js
 
-const GlobalEmitter = require('@crcr/global-emitter');
+import { default as GlobalEmitter } from "@crcr/global-emitter";
 
 GlobalEmitter.on('globalEvent', () => {
   console.log('globalEvent successfully emitted!');
