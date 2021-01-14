@@ -13,18 +13,20 @@ $ npm i @crcr/global-emitter
 // moduleOne.js
 
 import { default as GlobalEmitter } from "@crcr/global-emitter";
+// OR const GlobalEmitter = require("@crcr/global-emitter").default;
 
-GlobalEmitter.emit('globalEvent')
+GlobalEmitter.emit('globalEvent');
 ```
 
 ```js
 // moduleTwo.js
 
 import { default as GlobalEmitter } from "@crcr/global-emitter";
+// OR const GlobalEmitter = require("@crcr/global-emitter").default;
 
 GlobalEmitter.on('globalEvent', () => {
   console.log('globalEvent successfully emitted!');
-})
+});
 ```
 
 ## License
