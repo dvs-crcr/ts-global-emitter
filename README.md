@@ -14,7 +14,7 @@ $ npm i @crcr/global-emitter
 
 const GlobalEmitter = require('@crcr/global-emitter');
 
-GlobalEmitter.emit('globalEvent')
+GlobalEmitter.emit('globalEvent');
 ```
 
 ```js
